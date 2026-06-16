@@ -15,6 +15,11 @@
     "displayName": "Conventional Commits Skill Set",
     "shortDescription": "Generate Conventional Commits messages with multiple personality styles.",
     "longDescription": "A comprehensive set of skills for generating commit messages that follow the Conventional Commits specification. Supports multiple tones including Standard, Concise, Detailed, and Sarcastic.",
-    "category": "Coding"
+    "developerName": "Tom Dhanabhon",
+    "category": "Coding",
+    "capabilities": [
+      "Generate Conventional Commit messages"
+    ],
+    "defaultPrompt": "Write a Conventional Commit message for my staged changes."
   }
 }
