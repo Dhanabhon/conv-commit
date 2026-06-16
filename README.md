@@ -38,6 +38,23 @@ Because the skills trigger automatically based on your intent, you don't need to
   
   `https://github.com/dhanabhon/conv-commit`
 
+## Updating
+
+To upgrade `conv-commit` to the latest version:
+
+### Codex CLI
+
+Run the following command to update the plugin from the repository:
+
+```bash
+/plugin update conv-commit
+```
+*(Note: Depending on your Codex version, you may need to uninstall and reinstall the plugin using the installation URL if the update command is not yet supported).*
+
+### Codex App
+
+To update via the Codex App, open the Plugins interface, locate `conv-commit` in your installed plugins list, and click the refresh or update button to pull the latest changes from the repository.
+
 ## What's Inside
 
 ### Skills Library
@@ -47,6 +64,7 @@ Because the skills trigger automatically based on your intent, you don't need to
 - **conv-commit-concise** - Generates ultra-brief, single-line commits.
 - **conv-commit-detailed** - Generates highly detailed commits with context, reasoning, and side-effects.
 - **conv-commit-sarcastic** - Generates sarcastic, passive-aggressive commit messages.
+- **conv-commit-gitmoji** - Generates conventional commits prefixed with unicode gitmojis.
 
 ## Philosophy
 
