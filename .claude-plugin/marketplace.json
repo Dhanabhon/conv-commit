@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "conv-commit",
+  "description": "Conventional Commit skills for AI coding agents.",
+  "owner": {
+    "name": "Tom Dhanabhon",
+    "url": "https://github.com/dhanabhon"
+  },
+  "plugins": [
+    {
+      "name": "conv-commit",
+      "description": "Generate Conventional Commit messages with multiple personality styles.",
+      "source": "./",
+      "category": "coding"
+    }
+  ]
+}
