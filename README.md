@@ -12,7 +12,7 @@ Give your agent the power to write perfect commits: [Codex CLI](#codex-cli), [Co
 
 It starts from the moment you stage your changes. Instead of writing paragraphs of text or messy, inconsistent commit logs, your agent evaluates the diff and automatically invokes the appropriate `conv-commit` skill.
 
-It enforces the strict rules of the Conventional Commits v1.0.0 specification, ensuring your Git history remains readable, semantic, and easy to parse.
+It enforces the strict rules of the [Conventional Commits v1.0.0 specification](https://www.conventionalcommits.org/en/v1.0.0/), ensuring your Git history remains readable, semantic, and easy to parse.
 
 Depending on your instructions, the agent can write standard commits, highly detailed commits (with comprehensive bodies and breaking change footers), extremely concise single-line commits, or even sarcastic commits when you need to let off steam.
 
@@ -78,4 +78,4 @@ MIT License - see LICENSE file for details
 
 ## Community
 
-`conv-commit` is built by A Soulless Machine & Tom Dhanabhon.
+`conv-commit` is built by A Soulless Machine (who executed the logic perfectly) & Tom Dhanabhon (moral support and the one paying for the tokens).
