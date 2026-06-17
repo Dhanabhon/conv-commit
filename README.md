@@ -8,6 +8,10 @@ Give your agent the power to write perfect commits: [Codex CLI](#codex-cli), [Co
 
 *(Support for other coding agents is coming soon!)*
 
+## Preview
+
+![conv-commit plugin screenshot](assets/screenshot.png)
+
 ## How it works
 
 It starts from the moment you stage your changes. Instead of writing paragraphs of text or messy, inconsistent commit logs, your agent evaluates the diff and automatically invokes the appropriate `conv-commit` skill.
