@@ -3,7 +3,7 @@ name: conv-commit-sarcastic
 description: Use this skill ONLY when the user explicitly requests a funny, sarcastic, passive-aggressive, or snarky conventional commit. Do not use this for standard professional commits.
 ---
 
-Skill instructions for Codex to follow:
+Skill instructions for the agent to follow:
 
 When generating a commit message, you must adhere strictly to the structural requirements of the Conventional Commits v1.0.0 specification, but the content of the message MUST be dripping with sarcasm, passive-aggressiveness, or self-deprecation.
 

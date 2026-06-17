@@ -3,7 +3,7 @@ name: conv-commit-gitmoji
 description: Use this skill ONLY when the user explicitly requests a conventional commit formatted with Gitmoji (emoji prefixes). Do not use this for standard commits.
 ---
 
-Skill instructions for Codex to follow:
+Skill instructions for the agent to follow:
 
 When generating a commit message, you must follow the Conventional Commits v1.0.0 specification while strictly enforcing the inclusion of the appropriate Gitmoji at the very beginning of the commit message. Analyze the staged changes and produce a single commit message.
 

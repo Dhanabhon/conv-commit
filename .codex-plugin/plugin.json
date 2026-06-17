@@ -1,6 +1,6 @@
 {
   "name": "conv-commit",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Provides specialized skills for generating Conventional Commits.",
   "author": {
     "name": "A Soulless Machine (who executed the logic perfectly) & Tom Dhanabhon (moral support and the one paying for the tokens)",
@@ -14,7 +14,7 @@
   "interface": {
     "displayName": "Conventional Commits Skill Set",
     "shortDescription": "Generate Conventional Commits messages with multiple personality styles.",
-    "longDescription": "A comprehensive set of skills for generating commit messages that follow the Conventional Commits specification. Supports multiple tones including Standard, Concise, Detailed, and Sarcastic.",
+    "longDescription": "A comprehensive set of skills for generating commit messages that follow the Conventional Commits specification. Supports multiple tones including Standard, Concise, Detailed, Sarcastic, Gitmoji, and Fable.",
     "developerName": "Tom Dhanabhon",
     "category": "Coding",
     "capabilities": [

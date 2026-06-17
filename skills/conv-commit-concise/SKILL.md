@@ -3,7 +3,7 @@ name: conv-commit-concise
 description: Use this skill ONLY when the user explicitly requests a brief, single-line, or concise conventional commit. Do not use this for standard, detailed, or sarcastic commits.
 ---
 
-Skill instructions for Codex to follow:
+Skill instructions for the agent to follow:
 
 When generating a commit message, you must follow the Conventional Commits v1.0.0 specification but keep the output as brief and concise as possible. Analyze the staged changes and produce a single-line commit message.
 

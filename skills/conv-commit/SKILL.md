@@ -3,7 +3,7 @@ name: conv-commit
 description: Use this skill when the user wants to generate a standard commit message following the Conventional Commits specification. Do not use this if the user requests a concise, detailed, or sarcastic commit.
 ---
 
-Skill instructions for Codex to follow:
+Skill instructions for the agent to follow:
 
 When generating a commit message, you must follow the Conventional Commits v1.0.0 specification precisely. Analyze the staged changes and produce a single commit message.
 

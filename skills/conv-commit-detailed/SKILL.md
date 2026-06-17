@@ -3,7 +3,7 @@ name: conv-commit-detailed
 description: Use this skill ONLY when the user explicitly requests a detailed, thorough, or comprehensive conventional commit with a body and context. Do not use this for standard, concise, or sarcastic commits.
 ---
 
-Skill instructions for Codex to follow:
+Skill instructions for the agent to follow:
 
 When generating a commit message, you must follow the Conventional Commits v1.0.0 specification and strictly enforce a highly detailed output. Analyze the staged changes deeply to provide extensive context, reasoning, and implications.
 
