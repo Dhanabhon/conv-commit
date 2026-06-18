@@ -1,0 +1,24 @@
+{
+  "name": "conv-commit",
+  "version": "0.3.0",
+  "description": "Provides specialized skills for generating Conventional Commits.",
+  "type": "module",
+  "main": ".opencode/plugins/conv-commit.js",
+  "license": "MIT",
+  "author": {
+    "name": "A Soulless Machine (who executed the logic perfectly) & Tom Dhanabhon (moral support and the one paying for the tokens)",
+    "email": "tom@dhanabhon.com",
+    "url": "https://github.com/dhanabhon"
+  },
+  "homepage": "https://github.com/dhanabhon/conv-commit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhanabhon/conv-commit.git"
+  },
+  "keywords": [
+    "conventional-commits",
+    "opencode-plugin",
+    "codex-plugin",
+    "skills"
+  ]
+}

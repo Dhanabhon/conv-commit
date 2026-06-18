@@ -4,9 +4,7 @@
 
 ## Quickstart
 
-Give your agent the power to write perfect commits: [Codex CLI](#codex-cli), [Codex App](#codex-app).
-
-*(Support for other coding agents is coming soon!)*
+Give your agent the power to write perfect commits: [Codex CLI](#codex-cli), [Codex App](#codex-app), [OpenCode](#opencode).
 
 ## Preview
 
@@ -42,6 +40,19 @@ Because the skills trigger automatically based on your intent, you don't need to
   
   `https://github.com/dhanabhon/conv-commit`
 
+### OpenCode
+
+Add the git-backed plugin package to your OpenCode config:
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": ["conv-commit@git+https://github.com/dhanabhon/conv-commit.git"]
+}
+```
+
+Restart OpenCode, then use the native `skill` tool to load the `conv-commit` skills.
+
 ## Updating
 
 To upgrade `conv-commit` to the latest version:
@@ -58,6 +69,10 @@ Run the following command to update the plugin from the repository:
 ### Codex App
 
 To update via the Codex App, open the Plugins interface, locate `conv-commit` in your installed plugins list, and click the refresh or update button to pull the latest changes from the repository.
+
+### OpenCode
+
+Restart OpenCode. If the old git revision is still cached, remove OpenCode's cached package entry and restart again.
 
 ## What's Inside
 
