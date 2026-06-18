@@ -4,7 +4,7 @@
 
 ## Quickstart
 
-Give your agent the power to write perfect commits: [Codex CLI](#codex-cli), [Codex App](#codex-app), [OpenCode](#opencode).
+Give your agent the power to write perfect commits: [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [OpenCode](#opencode).
 
 ## Preview
 
@@ -23,6 +23,23 @@ Because the skills trigger automatically based on your intent, you don't need to
 ## Installation
 
 `conv-commit` is not yet available in the official marketplace. You must install it directly from the Git repository.
+
+### Claude Code
+
+Install the marketplace, then install the plugin:
+
+```text
+/plugin marketplace add https://github.com/dhanabhon/conv-commit
+/plugin install conv-commit@conv-commit
+```
+
+For local development, load this checkout directly:
+
+```bash
+claude --plugin-dir .
+```
+
+Claude Code exposes the skills under the plugin namespace, for example `/conv-commit:conv-commit` and `/conv-commit:conv-commit-gitmoji`.
 
 ### Codex CLI
 
@@ -53,6 +70,14 @@ Restart OpenCode, then use the native `skill` tool to load the `conv-commit` ski
 ## Updating
 
 To upgrade `conv-commit` to the latest version:
+
+### Claude Code
+
+Run the following command in Claude Code:
+
+```text
+/plugin update conv-commit
+```
 
 ### Codex CLI
 
