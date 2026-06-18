@@ -42,13 +42,10 @@ Because the skills trigger automatically based on your intent, you don't need to
 
 ### OpenCode
 
-Add the git-backed plugin package to your OpenCode config:
+Install the plugin globally:
 
-```json
-{
-  "$schema": "https://opencode.ai/config.json",
-  "plugin": ["conv-commit@git+https://github.com/dhanabhon/conv-commit.git"]
-}
+```bash
+opencode plugin "conv-commit@git+https://github.com/dhanabhon/conv-commit.git" --global
 ```
 
 Restart OpenCode, then use the native `skill` tool to load the `conv-commit` skills.
