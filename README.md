@@ -6,6 +6,15 @@
 
 Give your agent the power to write perfect commits: [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [OpenCode](#opencode).
 
+## Supported Tools
+
+| Tool | Support | Install path | Skill invocation |
+| --- | --- | --- | --- |
+| Claude Code | Supported | `/plugin marketplace add https://github.com/dhanabhon/conv-commit` then `/plugin install conv-commit@conv-commit` | `/conv-commit:conv-commit` |
+| Codex CLI | Supported | `/plugin install https://github.com/dhanabhon/conv-commit` | Automatic skill selection |
+| Codex App | Supported | Install from custom plugin URL | Automatic skill selection |
+| OpenCode | Supported | `opencode plugin "conv-commit@git+https://github.com/dhanabhon/conv-commit.git" --global` | Native `skill` tool |
+
 ## Preview
 
 ![conv-commit plugin screenshot](assets/screenshot.png)
