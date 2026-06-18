@@ -1,7 +1,5 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "conv-commit",
-  "displayName": "Conventional Commits Skill Set",
   "version": "0.5.0",
   "description": "Generate Conventional Commit messages with multiple personality styles.",
   "author": {
@@ -9,13 +7,6 @@
     "email": "tom@dhanabhon.com",
     "url": "https://github.com/dhanabhon"
   },
-  "homepage": "https://github.com/dhanabhon/conv-commit",
   "repository": "https://github.com/dhanabhon/conv-commit",
-  "license": "MIT",
-  "keywords": [
-    "conventional-commits",
-    "claude-code-plugin",
-    "skills"
-  ],
-  "skills": "./skills/"
+  "license": "MIT"
 }

@@ -4,12 +4,13 @@
 
 ## Quickstart
 
-Give your agent the power to write perfect commits: [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [OpenCode](#opencode).
+Give your agent the power to write perfect commits: [Antigravity](#antigravity), [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [OpenCode](#opencode).
 
 ## Supported Tools
 
 | Tool | Support | Install path | Skill invocation |
 | --- | --- | --- | --- |
+| Antigravity (`agy`) | Supported | `agy plugin install https://github.com/dhanabhon/conv-commit` | `Skill(skill="conv-commit")` |
 | Claude Code | Supported | `/plugin marketplace add https://github.com/dhanabhon/conv-commit` then `/plugin install conv-commit@conv-commit` | `/conv-commit:conv-commit` |
 | Codex CLI | Supported | `/plugin install https://github.com/dhanabhon/conv-commit` | Automatic skill selection |
 | Codex App | Supported | Install from custom plugin URL | Automatic skill selection |
@@ -32,6 +33,16 @@ Because the skills trigger automatically based on your intent, you don't need to
 ## Installation
 
 `conv-commit` is not yet available in the official marketplace. You must install it directly from the Git repository.
+
+### Antigravity
+
+Install the plugin from the repository URL:
+
+```bash
+agy plugin install https://github.com/dhanabhon/conv-commit
+```
+
+Antigravity exposes the skills through its native skill system, for example `Skill(skill="conv-commit")` and `Skill(skill="conv-commit-gitmoji")`.
 
 ### Claude Code
 
@@ -79,6 +90,14 @@ Restart OpenCode, then use the native `skill` tool to load the `conv-commit` ski
 ## Updating
 
 To upgrade `conv-commit` to the latest version:
+
+### Antigravity
+
+Re-run the install command:
+
+```bash
+agy plugin install https://github.com/dhanabhon/conv-commit
+```
 
 ### Claude Code
 

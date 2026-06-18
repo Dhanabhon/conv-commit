@@ -1,6 +1,6 @@
 {
   "name": "conv-commit",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Provides specialized skills for generating Conventional Commits.",
   "author": {
     "name": "A Soulless Machine (who executed the logic perfectly) & Tom Dhanabhon (moral support and the one paying for the tokens)",

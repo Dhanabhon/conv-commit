@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-06-19
+
+### Added
+- Antigravity (`agy`) plugin manifest support for the existing `skills/` directory.
+
 ## [0.4.0] - 2026-06-19
 
 ### Added
