@@ -124,6 +124,18 @@ To update via the Codex App, open the Plugins interface, locate `conv-commit` in
 
 Restart OpenCode. If the old git revision is still cached, remove OpenCode's cached package entry and restart again.
 
+## Releasing
+
+Add release notes under `[Unreleased]`, then bump all plugin manifests with the standard-library Python script:
+
+```bash
+python3 scripts/bump_version.py build  # 0.5.0 -> 0.5.1
+python3 scripts/bump_version.py minor  # 0.5.0 -> 0.6.0
+python3 scripts/bump_version.py major  # 0.5.0 -> 1.0.0
+```
+
+Use `patch` instead of `build` if you prefer SemVer wording; both produce the same patch bump. To set an exact version, run `python3 scripts/bump_version.py --version 1.2.3`.
+
 ## What's Inside
 
 ### Skills Library
